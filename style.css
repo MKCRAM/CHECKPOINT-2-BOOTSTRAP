@@ -1,0 +1,88 @@
+body{
+    background: rgb(232, 238, 245);
+}
+.nav-item{
+    font-family: 'Times New Roman', Times, serif; color: solid darkblue;
+}
+.active{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.bg-img{
+    background-image: url("yakro\ bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.flex-container{
+    max-width: 1300px;
+    min-height: 100px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 12px;
+    background: white;
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+
+}
+.flex-item{
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    height: 100vh;
+    width: 100vh;
+
+
+}
+.item1{
+    background-image: url(Baie_des_sirenes5_BAAB.jpg);
+    background-size: cover;
+    height: 50vh;
+    margin: 10px;
+    margin-left: 5px;
+}
+.item2{
+    background-image: url(korhogo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin: 10px;
+}
+.item3{
+    background-image: url(man.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin: 10px;
+}
+.item4{
+    background-image: url(yakro\ 3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 84vh;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.accordion-button{
+    background-color: rgb(88, 195, 238) !important;
+    position: relative;
+    box-shadow: none !important;
+}
+.accordion-button:active, .accordion-button:focus{
+    border: none !important;
+}
+
+.accordion-button:hover{
+    background:rgb(6, 105, 144) !important;
+}
+.accordion-button::after{
+    content:"" ;
+    border-color: rgb(4, 56, 77);
+    border-radius: 5px;
+    transition: .5s !important;
+}
